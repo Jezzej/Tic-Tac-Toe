@@ -13,7 +13,7 @@ class Move(NamedTuple):
 class TicTacToe_Board(Tk):
     def __init__(self):
         super().__init__()
-        self.title("TIC-TAC-TOE GAME")
+        self.title("PLAYER O vs PLAYER X")
         self.current_player = Player(label="X", color="blue")
         self.other_player = Player(label="O", color="red")
         self._cells = {}
